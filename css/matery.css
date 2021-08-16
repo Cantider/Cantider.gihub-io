@@ -241,8 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #333030 0%, #000000 100%); /*修改成自己喜欢的颜色值*/
-    opacity: 0.88;  /*透明效果 值范围 0~1，看情况自己修改*/
+    background-image: linear-gradient(to right, #2b2727 0%, #000000 100%); /*修改成自己喜欢的颜色值*/
+    opacity: 1;  /*透明效果 值范围 0~1，看情况自己修改*/
 }
 
 .text-color {
@@ -284,7 +284,7 @@ nav {
 }
 
 header .nav-transparent {
-    background-color: transparent !important;
+    background-color:  #2b2727 ;
     background-image: none;
     box-shadow: none;
 }
@@ -1973,7 +1973,7 @@ footer .copy-right {
 }
 
 .lg-sub-html .center-caption {
-    color: #fff !important;
+    color: rgb(34, 32, 32) !important;
     border-bottom: none;
 }
 
