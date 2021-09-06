@@ -4,11 +4,38 @@
   
     
     <entry>
-      <title>C++基本语法</title>
-      <link href="/2021/08/16/C-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
-      <url>/2021/08/16/C-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
+      <title>C_数据结构</title>
+      <link href="/2021/08/31/C_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <url>/2021/08/31/C_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="数据-数据元素-数据项-数据对象"><a href="#数据-数据元素-数据项-数据对象" class="headerlink" title="数据,数据元素,数据项,数据对象"></a>数据,数据元素,数据项,数据对象</h3><p><code>数据</code>: 是客观事物的符号表示,是所有能输入到计算机中并被计算机程序处理的符号的总称.</p><p><code>数据元素</code>:是<em><strong>数据</strong></em>的<em><strong>基本单位</strong></em>,在计算机中通常作为一个整体来处理.如学生管理系统中的一名学生.</p><p><code>数据项</code>:是组成<em><strong>数据元素</strong></em>的,有独立含义的***最小单位,***如学生管理系统中学生的姓名,学号等基本信息.</p><p><code>数据对象</code>:是性质相同的<em><strong>数据元素</strong></em>的集合,是数据的一个子集.</p><p><img src="https://img.cantider.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.png" alt="数据 数据元素 数据项 数据对象"></p><h3 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h3><p><code>数据结构</code>是相互之间存在一种或多种特定关系的数据元素的集合.数据结构包括<code>逻辑结构</code>和<code>存储结构</code>两个层次.</p><h4 id="逻辑结构"><a href="#逻辑结构" class="headerlink" title="逻辑结构:"></a>逻辑结构:</h4><p>从逻辑关系上描述数据,与数据的存储无关,独立于计算机.可以看作具体问题的数学模型.</p><p>逻辑结构的两大要素: <code>数据元素</code>和<code>逻辑关系</code>,根据数据元素之间的关系不同,可以分为以下四种常见基本结构.</p><p><img src="https://img.cantider.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Snipaste_2021-09-06_13-10-23.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C语言 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C++基础</title>
+      <link href="/2021/08/16/C++%E5%9F%BA%E7%A1%80/"/>
+      <url>/2021/08/16/C++%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="变量和基本内容"><a href="#变量和基本内容" class="headerlink" title="变量和基本内容"></a>变量和基本内容</h2><h3 id="C-基本内置类型"><a href="#C-基本内置类型" class="headerlink" title="C++基本内置类型"></a>C++基本内置类型</h3><blockquote><p> C++定义了一套含有<code>算术类型</code>和<code>空类型</code>在内的基本数据类型.</p><blockquote><p>算数类型: 字符, 整型数, 布尔值 和 浮点数</p><p>空类型: 空类型不对应具体值,如当函数不返回任何值的时空类型作为返回类型.</p></blockquote></blockquote><h4 id="算术类型"><a href="#算术类型" class="headerlink" title="算术类型"></a>算术类型</h4><p>算数类型分为两类: 整形(包括字符,整型数和布尔值) 和 浮点型</p><table><thead><tr><th>类型</th><th>含义</th><th>最小尺寸</th></tr></thead><tbody><tr><td><div style=width:150pt>int</div></td><td><div style=width:150pt>整型</div></td><td><div style=width:200pt>16bit</div></td></tr><tr><td>long</td><td>长整型</td><td>32bit</td></tr><tr><td>long long</td><td>长整型</td><td>64bit</td></tr><tr><td>float</td><td>单精度浮点数</td><td>6位有效数字</td></tr><tr><td>double</td><td>双精度浮点数</td><td>10位有效数字</td></tr><tr><td>long double</td><td>拓展精度浮点数</td><td>10位有效数字</td></tr><tr><td>bool</td><td>布尔类型</td><td>未定义</td></tr><tr><td>short</td><td>短整型</td><td>16bit</td></tr><tr><td>char</td><td>字符</td><td>8bit</td></tr><tr><td>wchar_t</td><td>宽字符</td><td>16bit</td></tr><tr><td>char16_t</td><td>Unicode字符</td><td>16bit</td></tr><tr><td>char32_t</td><td>Unicode字符</td><td>32bit</td></tr></tbody></table><p>算术类型所占内存的大小在不同类型的机器上有所差别,上表展示了C++所规定的最小值,同时允许编译器赋予这些类型更大的尺寸.</p><p><code>bool型的取值是 真(true) 或 假(false)</code></p><p>除去布尔型和拓展的字符外,其他整型可以划分为<code>signed(有符号的)</code>和<code>unsigned(无符号的)</code>.<br>字符型被分为三种: <code>char</code>, <code>signed char</code>, <code>unsigned char</code>; char类型的具体表现方式只有两种,signed char和unsigned char,而char实际上表现为二者中的一种,具体表现方式由编译器决定.</p><h4 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h4><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token comment">//eg:</span><span class="token keyword">bool</span> b <span class="token operator">=</span> <span class="token number">22</span><span class="token punctuation">;</span><span class="token comment">//b的值为真</span><span class="token keyword">int</span> i <span class="token operator">=</span> b<span class="token punctuation">;</span><span class="token comment">//i的值为1</span>i <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span><span class="token comment">//i的值为3</span><span class="token keyword">double</span> pi <span class="token operator">=</span> i<span class="token punctuation">;</span><span class="token comment">//pi的值为3.0</span><span class="token keyword">unsigned</span> <span class="token keyword">char</span> c <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//c的值为255(假设char占8bit)</span><span class="token keyword">signed</span> <span class="token keyword">char</span> c2 <span class="token operator">=</span> <span class="token number">256</span><span class="token punctuation">;</span><span class="token comment">//c的值是未定义的</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>切勿混用signed和unsigned,如果同一个表达式运算结果为负值,则会自动转换为无符号类型.</p></blockquote><h4 id="字面值常量"><a href="#字面值常量" class="headerlink" title="字面值常量"></a>字面值常量</h4><blockquote><p>整型和浮点型:</p><blockquote><p>整型:     字面值数据类型: int long long long等,十进制  八进制(O)  十六进制(Ox)<br>浮点型: 字面值数据类型: double        </p></blockquote></blockquote>]]></content>
       
       
       <categories>
